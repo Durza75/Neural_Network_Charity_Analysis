@@ -1,9 +1,9 @@
 # Neural Network Charity Analysis
 
 ## Overview of the Charity Analysis
-Alphabet Soup is a a non-profit organization dedicated to helping other organizations that protect the environment, improve people's well-being, and unify the world. 
+Alphabet Soup is a a non-profit dedicated to helping organizations that protect the environment, improve people's well-being, and unify the world. 
 
-This project aims to assist Alphabet Soup in predicting which organizations to lend money to and which organizations are too high-risk. Due to the complex nature of the data, a deep learning neural network was used to evaluate all types of input data and make a clear, data-driven result.  
+This project aims to assist Alphabet Soup in predicting which organizations to lend money to, and which organizations are too high-risk. Due to the complex nature of the data, a deep learning neural network was used to evaluate all types of input data and make a clear, data-driven result.  
 
 
 ## Results 
@@ -18,7 +18,7 @@ The variables considered to be the features in the model include APPLICATION_TYP
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
 
-The EINs and the name of the individual companies (NAME column) have been removed because there are too many unique data values in those columns that do not provide any useful value to the findings.
+The EINs and the name of the individual companies (the NAME column) have been removed because there are too many unique data values in those columns that do not provide any useful value to the findings.
 
 #### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -27,9 +27,10 @@ The number of neurons were left unchanged. A third layer was added using the sig
 
 * Were you able to achieve the target model performance?
 
-The target model performance was at leat 75% accuracy, and this model reached 53%. The target model performance was not achieved.
+The target model performance was at least 75% accuracy, and this model reached 53%. The target model performance was not achieved.
 
 * What steps did you take to try and increase model performance?
+
 In addition to the third hidden layer, ten more epochs were added, for a total of 30 epochs.
 
 
